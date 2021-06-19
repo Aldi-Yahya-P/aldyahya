@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  height: 100%x;
+  background: url(img/bg4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 98%;
+}
+.jumbotron {
+  background: rgb(0 0 0 / 25%);
+  padding-top: 6rem;
+  /* background: linear-gradient(to right, #0065ff, #0099ff); */
+}
+.projects {
+  background-color: #6e0feb;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.jumbotron > #title:nth-child(n + 0) {
+  -webkit-text-stroke: 1px #fffafa;
+  color: transparent;
+}
+footer {
+  padding-bottom: 1rem;
+}
+/* #border {
+  padding: 50px 50px;
+   margin-left: 20px;
+   margin-right: 50px; 
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0.5px rgb(0 0 0 / 80%);
+}*/
+.card-header {
+  background-color: rgb(90, 4, 187);
+}
+/* .content {
+  background: url(img/bg4.jpg);
+  background: rgb(0 0 0 / 25%);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 2rem;
+} */
+.content {
+  background-color: #6022b1;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0.5px;
+}
+footer {
+  background: linear-gradient(rgb(111, 0, 255) blue);
+}
